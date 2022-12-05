@@ -19,9 +19,11 @@
 
 body {
     margin: 0;
-    background: url('https://static.5sm.online/landing_bg.webp');
-    background-repeat: no-repeat;
-    background-position: top center;
+    background: url('https://static.5sm.online/landing_bg.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: var(--var-color-texto);
     font-family: var(--var-familia-fuente);
 }
