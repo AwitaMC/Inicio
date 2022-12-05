@@ -32,6 +32,7 @@ p.subheading {
     letter-spacing: 6px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 0;
     margin-bottom: 6px;
 }
 
@@ -47,7 +48,6 @@ h2 {
 }
 
 a {
-    display: block;
     color: var(--var-color-acento);
     text-decoration: none;
     transition: 0.1s all ease-in-out;
@@ -59,7 +59,7 @@ a:hover {
 
 div.contenedor {
     width: 800px;
-    padding: 20px;
+    padding: 40px 30px;
     margin: 0;
     background-color: var(--var-fondo-menos-oscuro);
     border: 1px solid var(--var-borde-color);
@@ -91,6 +91,7 @@ div.contenedor {
 
 ul, ol {
     padding: 0;
+    margin-bottom: 0;
 }
 
 ul li {
@@ -123,6 +124,7 @@ ul li ul li:last-child {
 }
 
 ul li ul li a {
+    display: block;
     padding: 16px;
 }
 
@@ -146,4 +148,13 @@ span.large-icon i {
 
 span.icon-label {
     font-size: 18pt;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 }
