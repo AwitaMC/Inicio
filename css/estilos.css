@@ -147,6 +147,10 @@ ul li ul li a {
     padding: 24px 16px;
 }
 
+ul li ul li a:hover {
+    background-color: #ffffff14;
+}
+
 ul li h2 {
     margin: 6px 0;
 }
